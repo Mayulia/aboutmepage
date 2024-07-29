@@ -1,9 +1,10 @@
 body {
     padding: 0;
     margin: 0;
+  border: 1px solid rgba(224, 224, 224, 0.405);
     background-color: rgba(224, 224, 224, 0.404);
     font-family: Poppins;
-  }
+}
   
   .container {
     display: flex;
@@ -11,14 +12,13 @@ body {
     align-items: center;
     padding: 20px;
     border: 2px solid rgba(191, 147, 228, 0.37);
-    border-width: 35px 35px;
-    bor
+    border-width: 150px 150px;
+    border-radius: 5px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Ajuste o valor do blur e a opacidade */
     opacity: 95%;
     background: rgba(191, 147, 228, 0.19)
   }
-  
-  
+
  h1 {
     margin-top: 10px;
     color: black;
@@ -46,7 +46,7 @@ body {
 
   p {
     text-align: justify;
-    max-width: 42%; 
+    max-width: 45%; 
     margin-top: 1px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -80,4 +80,9 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
 }

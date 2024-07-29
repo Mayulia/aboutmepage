@@ -10,12 +10,12 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    border: 2px solid rgba(134, 134, 134, 0.301);
-    border-width: 25px 25px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(191, 147, 228, 0.37);
+    border-width: 35px 35px;
+    bor
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Ajuste o valor do blur e a opacidade */
     opacity: 95%;
-    background: rgba(29, 28, 29, 0); /* Fallback */
+    background: rgba(191, 147, 228, 0.19)
   }
   
   
